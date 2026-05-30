@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Dependencies
 /node_modules
 /.pnp
 .pnp.*
@@ -10,32 +10,55 @@
 !.yarn/releases
 !.yarn/versions
 
-# testing
-/coverage
-
-# next.js
+# Next.js Build Output
 /.next/
 /out/
-
-# production
 /build
 
-# misc
-.DS_Store
-*.pem
+# IDEs and Editors
+/.idea/                  # WebStorm / IntelliJ project configurations
+/.vscode/                # VS Code configurations (if used as secondary)
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
 
-# debug
+# macOS Specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Environment Files (Keep API keys and local IPs secure)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.local
+
+# Debug and Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
+/coverage
+*.log
 
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
+# TypeScript
 *.tsbuildinfo
 next-env.d.ts
+
+# Vercel Deployment Clutter
+.vercel
+
+# Certificates / Keys
+*.pem
+*.key
