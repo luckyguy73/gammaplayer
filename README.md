@@ -34,3 +34,26 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# GammaPlayer
+
+A custom Next.js mobile dashboard frontend controller for a Sonos Play:1 speaker running alongside the `node-sonos-http-api` backend bridge on a local network.
+
+## Current Phase: Phase 1 (The MVP Setup)
+- [x] Initialized Next.js App with Tailwind CSS & TypeScript
+- [x] Configured `.gitignore` for macOS and WebStorm
+- [ ] Establish Backend Proxy API Routes
+- [ ] Build Mobile-First Dashboard Layout (Main View + Sliding Trays)
+
+## Getting Started
+
+### 1. Prerequisites
+Ensure you have Node.js installed on your development machine.
+
+### 2. Environment Setup
+Clone the repository and configure your local environment variables.
+
+```bash
+# Copy the example environment file to create your local configuration
+cp .env.example .env.local
+
